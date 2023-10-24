@@ -3,7 +3,8 @@ int main()
 {
     int sum = 0;
     // sum values from  1  through  10  inclusive
-    for (int val = 1; val <= 10; val++)
+    // for (int val = 1; val <= 10; val++)
+    for (int val = 0; val < 11; val++)
     {
         sum += val;
     }
