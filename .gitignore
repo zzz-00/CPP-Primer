@@ -1,1 +1,9 @@
+# Linux
 .vscode
+/Chapter01/01-01start/only_main
+/Chapter01/01-02iostream/use_iostream
+/Chapter01/01-03comments/comments
+/Chapter01/01-04while/while
+/Chapter01/01-05for/for
+/Chapter01/01-06VariableLength/VariableLength
+/Chapter01/01-07if/if
