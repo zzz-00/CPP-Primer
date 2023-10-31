@@ -7,3 +7,7 @@
 /Chapter01/01-05for/for
 /Chapter01/01-06VariableLength/VariableLength
 /Chapter01/01-07if/if
+
+# Windows
+.vscode
+*.exe
