@@ -1,24 +1,5 @@
 #include "salesitem.h"
 
-// used in chapter 10
-inline bool compareIsbn(const Sales_item &lhs, const Sales_item &rhs)
-{
-    return lhs.isbn() == rhs.isbn();
-}
-
-inline bool operator==(const Sales_item &lhs, const Sales_item &rhs)
-{
-    // must be made a friend of Sales_item
-    return lhs.units_sold == rhs.units_sold &&
-           lhs.revenue == rhs.revenue &&
-           lhs.isbn() == rhs.isbn();
-}
-
-inline bool operator!=(const Sales_item &lhs, const Sales_item &rhs)
-{
-    return !(lhs == rhs); // != defined in terms of operator==
-}
-
 // assumes that both objects refer to the same ISBN
 Sales_item &Sales_item::operator+=(const Sales_item &rhs)
 {
