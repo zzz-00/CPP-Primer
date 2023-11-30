@@ -1,5 +1,5 @@
 #include <iostream>
-#include "salesitem.h"
+#include "sales_item.h"
 int main()
 {
     Sales_item total; // 保存下一条交易记录的变量

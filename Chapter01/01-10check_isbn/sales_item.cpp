@@ -1,4 +1,4 @@
-#include "salesitem.h"
+#include "sales_item.h"
 
 // assumes that both objects refer to the same ISBN
 Sales_item &Sales_item::operator+=(const Sales_item &rhs)

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "salesitem.h"
+#include "sales_item.h"
 int main()
 {
     Sales_item book1, book2;
